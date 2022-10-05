@@ -1,0 +1,151 @@
+
+/*-----------------Global--------------*/
+body{
+    font: 15px / 1.5em Arial,Helvetica,sans-serif;
+    background-color: #f4f4f4;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+ul{
+    padding:0;
+    margin: 0;
+}
+/*---------------------------------------------*/
+header{
+    background-color: #35424a;
+    color:#ffff;
+    padding-top: 30px;
+    min-height:70px;
+    border-bottom: #e8491d 3px solid;
+    padding-top: 45px;
+}
+
+header a{
+    color:#ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{ 
+    display: inline;
+    padding: 0 20px; 
+}
+header nav{
+    float:right;
+    margin-top:7px ;
+}
+ .logo{
+    float:left;
+}
+.logo h1{
+  margin :0;
+  padding:5px;
+}
+
+header .highlight{
+    color:#e8491d;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30pt;
+}
+ header .c{
+    color:#e8491d;
+    font-weight: bold;
+}
+header a:hover{
+    color:#ccc;
+    font-weight: bold;
+}
+
+/*showcase*/
+#showcase{
+    min-height:400px;
+    background-image: url('images/showcase.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 400px;
+    /*x y*/
+    background-position: center center;
+    text-align:center;
+    color:white;
+}
+#showcase h1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 55px;
+    line-height: 70px;
+}
+#showcase p{
+    font-size: 20px;
+}
+#new-letter{
+    padding:15px;
+    background-color:#35424a;
+    font-size: 20px;
+    color:white;
+}
+#new-letter h1{
+float: left;
+
+}
+#new-letter form{
+    float: right;
+    margin-top: 24px;
+}
+
+input[type="email"]{
+padding: 10px;
+width: 250px;
+font-size: 10px;
+margin-bottom: 10px;
+}
+.button{
+    padding: 8px;
+    background-color: #e8491d;
+    border:#e8491d ;
+    border-radius: 5px;
+    font-weight: 700;
+    color:white;
+}
+.button :hover{
+    background-color: white;
+}
+/*-----------boxes---------*/
+#boxes{
+    margin-top: 10px;
+}
+.box{
+float:left;
+width:33.3%;
+box-sizing: border-box;
+text-align: center;
+padding: 20px;
+
+}
+#boxes .box img{
+    max-height: 200px;
+
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    background-color:#e8491d;
+    padding: 10px;
+}
+footer p{
+  
+  font-weight: 600;
+}
+@media(max-width:600px){
+    .box{
+        /* to center the items*/
+        width:100%;
+        
+        float:none;
+    }
+}
